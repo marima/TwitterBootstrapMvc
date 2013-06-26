@@ -63,11 +63,14 @@ namespace TwitterBootstrapMVC.Controls
             return (T)this;
         }
 
+        /*
+         * Only available in MVC 4.
         public T Format(string format)
         {
             this._model.format = format;
             return (T)this;
         }
+         */
 
         public T Placeholder()
         {

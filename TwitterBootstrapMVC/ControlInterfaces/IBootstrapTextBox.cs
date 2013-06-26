@@ -17,7 +17,10 @@ namespace TwitterBootstrapMVC.ControlInterfaces
         T Value(object value);
         T HtmlAttributes(IDictionary<string, object> htmlAttributes);
         T HtmlAttributes(object htmlAttributes);
+        /*
+         * Only available in MVC 4.
         T Format(string format);
+         */
         T Placeholder();
         T Placeholder(string placeholder);
         T Prepend(string prependString);
